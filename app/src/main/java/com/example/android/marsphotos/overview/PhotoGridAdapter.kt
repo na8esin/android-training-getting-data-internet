@@ -25,6 +25,7 @@ class PhotoGridAdapter : ListAdapter<MarsPhoto,
     override fun onBindViewHolder(
         holder: PhotoGridAdapter.MarsPhotoViewHolder,
         position: Int) {
+
         val marsPhoto = getItem(position)
         holder.bind(marsPhoto)
     }
@@ -37,10 +38,8 @@ class PhotoGridAdapter : ListAdapter<MarsPhoto,
             LayoutInflater.from(parent.context)))
     }
 
-    class MarsPhotoViewHolder(private var binding:
-                              GridViewItemBinding
-    ):
-        RecyclerView.ViewHolder(binding.root) {
+    class MarsPhotoViewHolder(private var binding: GridViewItemBinding)
+        : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(MarsPhoto: MarsPhoto) {
             binding.photo = MarsPhoto
