@@ -3,6 +3,8 @@ MarsPhotos - Starter Code
 
 Starter code for [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course).
 
+https://developer.android.com/codelabs/basic-android-kotlin-training-internet-images?hl=ja#0
+
 Introduction
 ------------
 
